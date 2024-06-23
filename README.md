@@ -8,6 +8,7 @@ The Question Answering (QA) feature is designed to provide users with concise an
 
 The QA feature is built upon a RAG modular architecture, consisting of several key components:
 
+
 ### 1. Document Retrieval
 
 - **Path**: [`src/retrieval.py`](src/retrieval.py)
@@ -108,6 +109,7 @@ pip install -r requirements.txt
 Some components may require API keys or other environment variables. Create a .env file in the root directory and populate it with the necessary variables as described in the documentation _(I don't do that here for some convenience reasons, but it's not good practice, so be aware of this)_.
 
 After that, you can use self-drive dataset or download some arXiV papers by using `python src/base/download.py`, create vector database by `python scripts/data_ingestion.py` and test the application by `streamlit run scripts/app.py`
+![Download papers](_assets/images/download_process.png "Download papers")
 
 ## Conclusion
 
