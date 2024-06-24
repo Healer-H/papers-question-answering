@@ -4,7 +4,7 @@
 
 The Question Answering (QA) feature is designed to provide users with concise answers to their queries based on a collection of research papers. It leverages a combination of natural language processing (NLP) techniques, including document retrieval and language model inference, to understand the context of a question and generate relevant answers.
 
-![Demo Question Answering Feature]("https://github.com/Healer-H/papers-question-answering/blob/master/_assets/images/demo-feature-question-answering.gif" "Demo Question Answering Feature")
+!["Demo Question Answering Feature"](_assets/images/demo-feature-question-answering.gif "Demo Question Answering Feature")
 
 ## Architecture
 
